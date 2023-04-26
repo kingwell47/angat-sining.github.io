@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
 import MainLayout from "./layout/MainLayout";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <MainLayout>
-      <h1>Hello World</h1>
+      <Home />
     </MainLayout>
   );
 }
