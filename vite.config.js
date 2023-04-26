@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 const base =
-  process.env.NODE_ENV === "production" ? "/organization.github.io/" : "/";
+  process.env.NODE_ENV === "production" ? "/angat-sining.github.io/" : "/";
 
 // https://vitejs.dev/config/
 export default defineConfig({
